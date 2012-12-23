@@ -28,19 +28,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="24" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+            <state line="15" column="41" selection-start="355" selection-end="355" vertical-scroll-proportion="0.3846154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="35" selection-start="553" selection-end="553" vertical-scroll-proportion="0.5641026">
+            <state line="22" column="35" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,8 +73,8 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js.coffee" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/README.rdoc" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -576,16 +576,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+        <state line="22" column="35" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="35" selection-start="553" selection-end="553" vertical-scroll-proportion="0.5641026">
+        <state line="15" column="41" selection-start="355" selection-end="355" vertical-scroll-proportion="0.3846154">
           <folding />
         </state>
       </provider>
