@@ -1,0 +1,38 @@
+- model_class = Product
+
+.page-header
+  %h1= t '.title', :default => model_class.model_name.human
+
+%dl.dl-horizontal
+  %dt
+    %strong
+      = model_class.human_attribute_name(:title)
+      \:
+  %dd= @product.title
+  %dt
+    %strong
+      = model_class.human_attribute_name(:description)
+      \:
+  %dd= @product.description
+  %dt
+    %strong
+      = model_class.human_attribute_name(:price)
+      \:
+  %dd= @product.price
+  %dt
+    %strong
+      = model_class.human_attribute_name(:quantity)
+      \:
+  %dd= @product.quantity
+  %dt
+    %strong
+      = model_class.human_attribute_name(:published)
+      \:
+  %dd= @product.published
+
+.form-actions
+  = link_to t('.back', :default => t("helpers.links.back")), products_path, :class => 'btn'
+  = link_to t('.edit', :default => t("helpers.links.edit")), edit_product_path(@product), :class => 'btn'
+  = link_to t('.destroy', :default => t("helpers.links.destroy")),                                               |
+    product_path(@product), :method => 'delete', :class => 'btn btn-danger',                                                                                         |
+    :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } |
