@@ -1,8 +1,6 @@
 == PJAX Example
 
-An example application to call static pages and full CRUD operation
-
-To install, clone this repository in git then from the root directory:
+To install, clone this repository and run from root directory:
   bundle install
   bundle exec rake db:setup
   rails s
