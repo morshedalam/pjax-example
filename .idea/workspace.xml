@@ -31,7 +31,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="41" selection-start="355" selection-end="355" vertical-scroll-proportion="0.3846154">
+            <state line="16" column="6" selection-start="359" selection-end="359" vertical-scroll-proportion="0.41025642">
               <folding />
             </state>
           </provider>
@@ -41,7 +41,9 @@
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="22" column="35" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1356300557000" expanded="true" signature="485:630" placeholder="production:" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -579,13 +581,15 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="35" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1356300557000" expanded="true" signature="485:630" placeholder="production:" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="355" selection-end="355" vertical-scroll-proportion="0.3846154">
+        <state line="16" column="6" selection-start="359" selection-end="359" vertical-scroll-proportion="0.41025642">
           <folding />
         </state>
       </provider>
