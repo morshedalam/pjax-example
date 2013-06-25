@@ -1,0 +1,25 @@
+// Import all the variables into the main css file.
+//@import "variables";
+
+// I gather this file is a starting point for the project.
+@import "bootstrap";
+// Include responsive Bootstrap styles
+@import "bootstrap-responsive";
+
+body {
+  padding-top: 60px;
+}
+
+input[type="text"] {
+  width: 350px;
+}
+
+textarea {
+  height: 150px;
+  width: 500px;
+}
+
+.page-header {
+  margin: 0 0 10px 0;
+  padding-bottom: 0px;
+}

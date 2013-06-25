@@ -12,17 +12,17 @@
 #
 #= require jquery
 #= require jquery_ujs
+#= require bootstrap
 #= require jquery.pjax
-#= require twitter/bootstrap
 
 if $.support.pjax
-  $('a:not([data-method]), [data-href]').live 'click', (event) ->
+  $('a:not([data-method]), [data-href]').on 'click', (event) ->
     event.preventDefault()
     $.pjax
       container: $(this).data('pjax-container') || '[data-pjax-container]'
       url: $(this).data('href') || $(this).attr('href')
 
-  $('form').live 'submit', (event) ->
+  $('form').on 'submit', (event) ->
     event.preventDefault()
     $.pjax
       container: $(this).data('pjax-container') || '[data-pjax-container]'
@@ -31,7 +31,7 @@ if $.support.pjax
       type: $(this).attr('method')
 
 else
-  $('[data-href]').live 'click', (event) -> # not a native #href, need some help
+  $('[data-href]').on 'click', (event) -> # not a native #href, need some help
     event.preventDefault()
     window.location = $(this).data('href')
 
