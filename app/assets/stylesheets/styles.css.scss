@@ -27,3 +27,15 @@ textarea {
 .table th, .table td {
   font-size: 12px;
 }
+
+.center, .table td.center, .table th.center {
+  text-align: center;
+}
+.datetime {
+  white-space: nowrap;
+  width: 120px;
+}
+.actions {
+  white-space: nowrap;
+  width: 50px;
+}

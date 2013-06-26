@@ -13,10 +13,10 @@
         %th= model_class.human_attribute_name(:title)
         %th= model_class.human_attribute_name(:description)
         %th= model_class.human_attribute_name(:price)
-        %th= model_class.human_attribute_name(:quantity)
-        %th= model_class.human_attribute_name(:published)
-        %th= model_class.human_attribute_name(:created_at)
-        %th= t '.actions', :default => t("helpers.actions")
+        %th.center= model_class.human_attribute_name(:quantity)
+        %th.center= model_class.human_attribute_name(:published)
+        %th.datetime= model_class.human_attribute_name(:created_at)
+        %th.actions= t '.actions', :default => t("helpers.actions")
     %tbody
       - @products.each do |product|
         %tr
@@ -24,10 +24,10 @@
           %td= product.title
           %td= product.description
           %td= product.price
-          %td= product.quantity
-          %td= product.published
-          %td= l product.created_at
-          %td
+          %td.center= product.quantity
+          %td.center= product.published
+          %td.datetime= l product.created_at
+          %td.actions
             = link_to t('.edit', :default => t("helpers.links.edit")), edit_product_path(product), :class => 'btn btn-mini'
             = link_to t('.destroy', :default => t("helpers.links.destroy")),                                               |
               product_path(product),  :method => :delete, :class => 'btn btn-mini btn-danger',                                                                  |
